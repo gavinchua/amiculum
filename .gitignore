@@ -47,7 +47,6 @@ Temporary Items
 .apdisk
 
 # Directories to ignore
-/deploy
 /node_modules
 
 # Files to ignore
