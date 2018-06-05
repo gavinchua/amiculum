@@ -1,0 +1,229 @@
+- var pagetitle = "Home"
+- var pagedesc = "Home"
+- var pagename = "home"
+- var folder = ""
+
+include /includes/header
+
+<!--  ====================  -->
+<!--  === Main content ===  -->
+<!--  ====================  -->
+main( role="main" )
+
+	<!-- Masthead -->
+	.masthead
+		.container
+			.row
+				.col-md-12
+					#carousel-example.carousel.slide( data-ride="carousel" )
+						<!-- Indicators -->
+						ol.carousel-indicators
+							li.active( data-target="#carousel-example" data-slide-to="0" )
+							li( data-target="#carousel-example" data-slide-to="1" )
+							li( data-target="#carousel-example" data-slide-to="2" )
+						<!-- Wrapper for slides -->
+						.carousel-inner( role="listbox" )
+							.item.active
+								img.responsive-img( src="http://via.placeholder.com/1170x470" alt="Slide 1" title="Slide 1" )
+							.item
+								img.responsive-img( src="http://via.placeholder.com/1170x470" alt="Slide 2" title="Slide 2" )
+							.item
+								img.responsive-img( src="http://via.placeholder.com/1170x470" alt="Slide 3" title="Slide 3" )
+						<!-- Controls -->
+						a.left.carousel-control( href="#carousel-example" role="button" data-slide="prev" )
+							span.glyphicon.glyphicon-chevron-left( aria-hidden="true" )
+							span.sr-only
+								| Previous
+						a.right.carousel-control( href="#carousel-example" role="button" data-slide="next" )
+							span.glyphicon.glyphicon-chevron-right( aria-hidden="true" )
+							span.sr-only
+								| Next
+
+	<!-- Section 1 -->
+	<!-- Could use a better name instead of section 1, section 2, etc -->
+	.section1
+		.container
+			.row
+				.col-md-12.text-center
+					h1
+						| Project
+					h6
+						| TEST for RESPONSIVE DESIGN
+					h2
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in.
+					a.btn( href="#" )
+						| Read More
+
+	<!-- Section 2 -->
+	.section2
+		.container
+			.row
+				.col-md-12.text-center
+					h3
+						| Modal
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta.
+			.row
+				.col-md-12
+					figure.modal-wrapper
+						img.responsive-img( src="http://via.placeholder.com/1170x470" alt="Image 1" title="Image 1" )
+						figcaption
+							button.btn( data-toggle="modal" data-target="#imageModal1" )
+								| +
+							#imageModal1.modal.fade( tabindex="-1" role="dialog" aria-labelledby="imageModal1Label" )
+								.modal-dialog( role="document" )
+									.modal-content.text-center
+										.modal-header
+											button.btn.close( type="button" data-dismiss="modal" aria-label="Close" )
+												span( aria-hidden="true" )
+													| &times;
+											h4#imageModal1Label.modal-title
+												| Modal 1
+										.modal-body
+											| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in.  Ut a dolor convallis, scelerisque leo eu, tincidunt eros. Vestibulum quis ullamcorper augue. Cras vitae mattis libero, et cursus neque. Sed tincidunt fermentum vehicula.
+				.col-md-6
+					figure.modal-wrapper
+						img.responsive-img( src="http://via.placeholder.com/1170x470" alt="Image 2" title="Image 2" )
+						figcaption
+							button.btn( data-toggle="modal" data-target="#imageModal2" )
+								| +
+							#imageModal2.modal.fade( tabindex="-1" role="dialog" aria-labelledby="imageModal2Label" )
+								.modal-dialog( role="document" )
+									.modal-content.text-center
+										.modal-header
+											button.btn.close( type="button" data-dismiss="modal" aria-label="Close" )
+												span( aria-hidden="true" )
+													| &times;
+											h4#imageModal2Label.modal-title
+												| Modal 2
+										.modal-body
+											| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in.  Ut a dolor convallis, scelerisque leo eu, tincidunt eros. Vestibulum quis ullamcorper augue. Cras vitae mattis libero, et cursus neque. Sed tincidunt fermentum vehicula.
+				.col-md-6
+					figure.modal-wrapper
+						img.responsive-img( src="http://via.placeholder.com/1170x470" alt="Image 3" title="Image 3" )
+						figcaption
+							button.btn( data-toggle="modal" data-target="#imageModal3" )
+								| +
+							#imageModal3.modal.fade( tabindex="-1" role="dialog" aria-labelledby="imageModal3Label" )
+								.modal-dialog( role="document" )
+									.modal-content.text-center
+										.modal-header
+											button.btn.close( type="button" data-dismiss="modal" aria-label="Close" )
+												span( aria-hidden="true" )
+													| &times;
+											h4#imageModal1Label.modal-title
+												| Modal 3
+										.modal-body
+											| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in.  Ut a dolor convallis, scelerisque leo eu, tincidunt eros. Vestibulum quis ullamcorper augue. Cras vitae mattis libero, et cursus neque. Sed tincidunt fermentum vehicula.
+
+	<!-- Section 3 -->
+	.section3
+		.container
+			.row
+				.col-md-5
+					h2
+						| Breakout Area
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta.
+				.col-md-7
+					img.responsive-img( src="http://via.placeholder.com/680x440" alt="Breakout Area" title="Breakout Area" )
+
+	<!-- Section 4 -->
+	<!-- This layout is weird!!!! -->
+	.section4
+		.container
+			.row
+				.col-md-3
+					ul
+						li
+							h5
+								| Image Caption 1
+							p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+						li
+							h5
+								| Image Caption 1
+							p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+				.col-md-9
+					.row
+						.col-md-6
+							figure.modal-wrapper
+								img.responsive-img( src="http://via.placeholder.com/680x440" alt="Image 4" title="Image 4" )
+								figcaption
+									button.btn( data-toggle="modal" data-target="#imageModal4" )
+										| +
+									#imageModal4.modal.fade( tabindex="-1" role="dialog" aria-labelledby="imageModal4Label" )
+										.modal-dialog( role="document" )
+											.modal-content.text-center
+												.modal-header
+													button.btn.close( type="button" data-dismiss="modal" aria-label="Close" )
+														span( aria-hidden="true" )
+															| &times;
+													h4#imageModal1Label.modal-title
+														| Modal 4
+												.modal-body
+													| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in.  Ut a dolor convallis, scelerisque leo eu, tincidunt eros. Vestibulum quis ullamcorper augue. Cras vitae mattis libero, et cursus neque. Sed tincidunt fermentum vehicula.
+						.col-md-6
+							figure.modal-wrapper
+								img.responsive-img( src="http://via.placeholder.com/680x440" alt="Image 5" title="Image 5" )
+								figcaption
+									button.btn( data-toggle="modal" data-target="#imageModal5" )
+										| +
+									#imageModal5.modal.fade( tabindex="-1" role="dialog" aria-labelledby="imageModal5Label" )
+										.modal-dialog( role="document" )
+											.modal-content.text-center
+												.modal-header
+													button.btn.close( type="button" data-dismiss="modal" aria-label="Close" )
+														span( aria-hidden="true" )
+															| &times;
+													h4#imageModal1Label.modal-title
+														| Modal 4
+												.modal-body
+													| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in.  Ut a dolor convallis, scelerisque leo eu, tincidunt eros. Vestibulum quis ullamcorper augue. Cras vitae mattis libero, et cursus neque. Sed tincidunt fermentum vehicula.
+
+	<!-- Section 5 -->
+	.section5
+		.container
+			.row
+				.col-md-12.text-center
+					h2
+						| Hot Topics
+					p
+						| Lorem ipsum dolor sit amet
+				.col-md-12
+					.row
+						.col-md-3
+							figure.modal-wrapper
+								img.responsive-img( src="http://via.placeholder.com/680x440" alt="Topic 1" title="Topic 1" )
+								figcaption.text-center
+									h6
+										| Topic Title
+									p
+										| Lorem ipsum dolor sit amet
+						.col-md-3
+							figure.modal-wrapper
+								img.responsive-img( src="http://via.placeholder.com/680x440" alt="Topic 2" title="Topic 2" )
+								figcaption.text-center
+									h6
+										| Topic Title
+									p
+										| Lorem ipsum dolor sit amet
+						.col-md-3
+							figure.modal-wrapper
+								img.responsive-img( src="http://via.placeholder.com/680x440" alt="Topic 3" title="Topic 3" )
+								figcaption.text-center
+									h6
+										| Topic Title
+									p
+										| Lorem ipsum dolor sit amet
+						.col-md-3
+							figure.modal-wrapper
+								img.responsive-img( src="http://via.placeholder.com/680x440" alt="Topic 4" title="Topic 4" )
+								figcaption.text-center
+									h6
+										| Topic Title
+									p
+										| Lorem ipsum dolor sit amet
+
+include /includes/footer

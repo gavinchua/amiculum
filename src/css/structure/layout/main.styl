@@ -1,0 +1,33 @@
+@import "../style.styl";
+
+//
+// Main
+// --------------------------------------------------
+
+body
+	background site-black
+	color site-white
+	font-family Verdana, Geneva, Tahoma, sans-serif
+
+@font-face
+	font-family "Glyphicons Halflings"
+	src url(font-folder "bootstrap/glyphicons-halflings-regular.eot?v=4.6.3")
+	src url(font-folder "bootstrap/glyphicons-halflings-regular.eot?#iefix&v=4.6.3") format("embedded-opentype"), url(font-folder "bootstrap/glyphicons-halflings-regular.woff2?v=4.6.3") format("woff2"), url(font-folder "bootstrap/glyphicons-halflings-regular.woff?v=4.6.3") format("woff"), url(font-folder "bootstrap/glyphicons-halflings-regular.ttf?v=4.6.3") format("truetype"), url(font-folder "bootstrap/glyphicons-halflings-regular.svg?v=4.6.3#fontawesomeregular") format("svg")
+	font-weight normal
+	font-style normal
+
+img.responsive-img
+	responsiveImg()
+
+figure.modal-wrapper
+	position relative
+
+	figcaption
+		position absolute
+		right 10px
+		top 10px
+
+		.btn
+			height 40px
+			padding 5px
+			width 40px

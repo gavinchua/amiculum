@@ -1,0 +1,388 @@
+
+.btn {
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+@media (min-width: 992px /*62em*/) {
+  .btn {
+    font-size: 16px;
+    padding: 20px 40px;
+  }
+}
+.btn:focus,
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol {
+  margin: 0;
+  padding-left: 15px;
+}
+ol li {
+  padding-left: 5px;
+}
+.disc {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.disc li {
+  padding-left: 5px;
+}
+
+.masthead {
+  margin-bottom: 60px;
+}
+
+a:focus {
+  outline: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0)*/
+
+
+.lt-ie9 .container {
+  width: 1140px;
+}
+
+/*@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0)*/
+
+
+footer {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+footer .text-center {
+  padding-top: 30px;
+  position: relative;
+}
+footer .text-center:before {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  margin-left: -45px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+
+header {
+  padding: 35px 0 20px;
+}
+header .logo {
+  text-align: center;
+}
+@media (min-width: 992px /*62em*/) {
+  header .logo {
+    text-align: left;
+  }
+}
+header .brandname {
+  display: table;
+  height: 60px;
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 992px /*62em*/) {
+  header .brandname {
+    text-align: right;
+  }
+}
+header .brandname h4 {
+  display: table-cell;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("../../assets/fonts/bootstrap/glyphicons-halflings-regular.eot?v=4.6.3");
+  src: url("../../assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../../assets/fonts/bootstrap/glyphicons-halflings-regular.woff2?v=4.6.3") format("woff2"), url("../../assets/fonts/bootstrap/glyphicons-halflings-regular.woff?v=4.6.3") format("woff"), url("../../assets/fonts/bootstrap/glyphicons-halflings-regular.ttf?v=4.6.3") format("truetype"), url("../../assets/fonts/bootstrap/glyphicons-halflings-regular.svg?v=4.6.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+img.responsive-img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+figure.modal-wrapper {
+  position: relative;
+}
+figure.modal-wrapper figcaption {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+figure.modal-wrapper figcaption .btn {
+  height: 40px;
+  padding: 5px;
+  width: 40px;
+}
+
+
+.section1 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+@media (min-width: 992px /*62em*/) {
+  .section1 h1 {
+    font-size: 80px;
+  }
+}
+.section1 h6 {
+  font-size: 12px;
+  margin: 20px auto 40px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section1 h6 {
+    font-size: 16px;
+  }
+}
+.section1 h2 {
+  font-size: 18px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section1 h2 {
+    font-size: 24px;
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+.section1 .btn {
+  margin: 25px auto 60px;
+}
+.section2 {
+  margin-bottom: 60px;
+}
+.section2 h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section2 h3 {
+    font-size: 24px;
+  }
+}
+.section2 p {
+  margin: 0 auto 40px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section2 p {
+    width: 35%;
+  }
+}
+.section2 .col-md-6 {
+  margin-top: 20px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section2 .col-md-6 {
+    margin-top: 30px;
+  }
+}
+.section3 {
+  background: #fff;
+  color: #000;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section3 {
+    padding-top: 100px;
+  }
+}
+.section3 h2 {
+  letter-spacing: 5px;
+  margin: 10px 0 50px;
+  position: relative;
+  text-transform: uppercase;
+}
+@media (min-width: 992px /*62em*/) {
+  .section3 h2 {
+    margin: 80px 0 50px;
+  }
+}
+.section3 h2:after {
+  background: #9e9e9e;
+  bottom: -25px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 60px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section3 h2:after {
+    bottom: -30px;
+  }
+}
+.section3 p {
+  color: #9e9e9e;
+  font-size: 15px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section3 p {
+    font-size: 18px;
+  }
+}
+.section4 li {
+  margin-top: 40px;
+}
+.section4 li:first-child {
+  margin: 0;
+}
+.section4 li h5 {
+  padding: 15px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.section4 li h5:before {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.section4 .col-md-9 .col-md-6 {
+  margin-top: 20px;
+}
+@media (min-width: 992px /*62em*/) {
+  .section4 .col-md-9 .col-md-6 {
+    margin-top: 0;
+  }
+}
+.section5 {
+  border-top: 1px solid #fff;
+  margin: 80px auto;
+  padding-top: 80px;
+}
+.section5 .col-md-12.text-center p {
+  font-size: 18px;
+  margin: 20px auto 40px;
+}
+.section5 .col-md-3 {
+  margin-top: 20px;
+}
+.section5 .col-md-3:first-child {
+  margin: 0;
+}
+@media (min-width: 992px /*62em*/) {
+  .section5 .col-md-3:first-child {
+    margin-top: 20px;
+  }
+}
+.section5 .col-md-3 figcaption {
+  font-size: 13px;
+  position: relative;
+  right: auto;
+  top: auto;
+}
+.section5 .col-md-3 figcaption h6 {
+  font-size: 14px;
+  margin: 20px auto 15px;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../../assets/fonts/fontawesome/fontawesome-webfont.eot?v=4.6.3");
+  src: url("../../assets/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../../assets/fonts/fontawesome/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../../assets/fonts/fontawesome/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../../assets/fonts/fontawesome/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../../assets/fonts/fontawesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 992px /*62em*/) {
+  .modal-dialog {
+    width: 80%;
+  }
+}
+.modal-dialog .modal-content {
+  border-radius: 0;
+  border: none;
+  color: #9e9e9e;
+}
+.modal-dialog .modal-content .modal-header {
+  border: none;
+  color: #000;
+  padding: 30px 0 5px;
+  position: relative;
+}
+@media (min-width: 992px /*62em*/) {
+  .modal-dialog .modal-content .modal-header {
+    padding: 70px 0 15px;
+  }
+}
+.modal-dialog .modal-content .modal-header button {
+  border: 2px solid #000;
+  color: #000;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+@media (min-width: 992px /*62em*/) {
+  .modal-dialog .modal-content .modal-header button {
+    right: 20px;
+    top: 20px;
+  }
+}
+.modal-dialog .modal-content .modal-header h4 {
+  font-size: 24px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+@media (min-width: 992px /*62em*/) {
+  .modal-dialog .modal-content .modal-header h4 {
+    font-size: 30px;
+  }
+}
+.modal-dialog .modal-content .modal-body {
+  font-size: 14px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 80%;
+}
+@media (min-width: 992px /*62em*/) {
+  .modal-dialog .modal-content .modal-body {
+    font-size: 18px;
+    padding-bottom: 70px;
+  }
+}

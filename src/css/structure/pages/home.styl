@@ -1,0 +1,155 @@
+@import "../style.styl";
+
+//
+// Home
+// --------------------------------------------------
+
+.section1
+    h1
+        font-size 40px
+        font-weight bold
+        letter-spacing 15px
+        text-transform uppercase
+
+        @media (min-width: width-tabletlandscape)
+            font-size 80px
+
+    h6
+        font-size 12px
+        margin 20px auto 40px
+
+        @media (min-width: width-tabletlandscape)
+            font-size 16px
+
+    h2
+        font-size 18px
+
+        @media (min-width: width-tabletlandscape)
+            font-size 24px
+            margin 0 auto
+            width 70%
+
+    .btn
+        margin 25px auto 60px
+
+.section2
+    margin-bottom 60px
+
+    h3
+        font-size 18px
+        margin-bottom 20px
+
+        @media (min-width: width-tabletlandscape)
+            font-size 24px
+
+    p
+        margin 0 auto 40px
+
+        @media (min-width: width-tabletlandscape)
+            width 35%
+
+    .col-md-6
+        margin-top 20px
+
+        @media (min-width: width-tabletlandscape)
+            margin-top 30px
+
+.section3
+    background site-white
+    color site-black
+    margin-bottom 60px
+    padding-top 50px
+
+    @media (min-width: width-tabletlandscape)
+        padding-top 100px
+
+    h2
+        letter-spacing 5px
+        margin 10px 0 50px
+        position relative
+        text-transform uppercase
+
+        @media (min-width: width-tabletlandscape)
+            margin 80px 0 50px
+
+        &:after
+            background #9e9e9e
+            bottom -25px
+            content ""
+            display block
+            height 1px
+            left 0
+            position absolute
+            width 60px
+
+            @media (min-width: width-tabletlandscape)
+                bottom -30px
+
+    p
+        color #9e9e9e
+        font-size 15px
+
+        @media (min-width: width-tabletlandscape)
+            font-size 18px
+
+.section4
+    li
+        margin-top 40px
+
+        &:first-child
+            margin 0
+
+        h5
+            padding 15px 0
+            position relative
+            text-transform uppercase
+
+            // @media (min-width: width-tabletlandscape)
+            //     margin 80px 0 50px
+
+            &:before
+                background site-white
+                content ""
+                display block
+                height 1px
+                left 0
+                position absolute
+                top 0
+                width 100%
+
+    .col-md-9
+        .col-md-6
+            margin-top 20px
+
+            @media (min-width: width-tabletlandscape)
+                margin-top 0
+
+.section5
+    border-top 1px solid site-white
+    margin 80px auto
+    padding-top 80px
+
+    .col-md-12.text-center
+        p
+            font-size 18px
+            margin 20px auto 40px
+
+    .col-md-3
+        margin-top 20px
+
+        &:first-child
+            margin 0
+
+            @media (min-width: width-tabletlandscape)
+                margin-top 20px
+
+        figcaption
+            font-size 13px
+            position relative
+            right auto
+            top auto
+
+            h6
+                font-size 14px
+                margin 20px auto 15px
+                text-transform uppercase
